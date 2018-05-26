@@ -62,3 +62,4 @@ SELECT * FROM Production.Product;
 
 
 /* Podremos ver tambien las vistas de una base de datos */
+/* Comentando desde GitHub */
