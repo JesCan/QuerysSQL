@@ -55,3 +55,5 @@ Revisar el link:
 USE AdventureWorks2016;
 select name from sysobjects where type='U';
 GO
+
+/* Podremos ver tambien las vistas de una base de datos */
