@@ -53,7 +53,12 @@ Revisar el link:
 
 /* Ver las tablas de la base de datos AdventureWorks2016 */
 USE AdventureWorks2016;
+Select [NAME] from sys.tables
+Select [NAME] from sys.views
 select name from sysobjects where type='U';
 GO
+
+SELECT * FROM Production.Product;
+
 
 /* Podremos ver tambien las vistas de una base de datos */
