@@ -47,3 +47,11 @@ GO
 /* Ver información de Base de Datos Inventario */
 EXEC sp_helpdb InventarioEquipos;
 GO
+
+/* Restaurar base de datos AdventureWorks2016.bak */
+Revisar el link: 
+
+/* Ver las tablas de la base de datos AdventureWorks2016 */
+USE AdventureWorks2016;
+select name from sysobjects where type='U';
+GO
